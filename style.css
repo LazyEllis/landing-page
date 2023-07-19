@@ -20,3 +20,8 @@ li {
 a {
     text-decoration: none;
 }
+
+.upper-modal {
+    display: flex;
+    justify-content: space-between;
+}
