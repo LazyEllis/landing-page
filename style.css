@@ -25,3 +25,17 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+.info {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+img + div {
+    width: 250px;
+}
