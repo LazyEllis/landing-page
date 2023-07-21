@@ -1,6 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 img {
@@ -24,6 +25,7 @@ a {
 .upper-modal {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
@@ -34,6 +36,7 @@ a {
 .images {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px;
 }
 
@@ -44,6 +47,7 @@ img + div {
 .quote {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 figure, blockquote {
@@ -57,6 +61,7 @@ figcaption {
 .lower-modal {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 150px;
 }
 
