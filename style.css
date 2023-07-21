@@ -40,3 +40,16 @@ a {
 img + div {
     width: 250px;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+}
+
+figure, blockquote {
+    margin-left: 0;
+}
+
+figcaption {
+    text-align: right;
+}
