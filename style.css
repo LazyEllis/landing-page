@@ -53,3 +53,17 @@ figure, blockquote {
 figcaption {
     text-align: right;
 }
+
+.lower-modal {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.lower-modal h2, .lower-modal p {
+    margin: 0;
+}
+
+.button {
+    align-self: flex-end;
+}
