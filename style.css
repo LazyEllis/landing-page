@@ -1,3 +1,41 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/roboto-v30-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./fonts/roboto-v30-latin-900.woff2') format('woff2');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -40,8 +78,8 @@ a {
     gap: 15px;
 }
 
-img + div {
-    width: 250px;
+.caption {
+    width: 220px;
 }
 
 .quote {
@@ -52,17 +90,25 @@ img + div {
 
 figure, blockquote {
     margin-left: 0;
+    margin-right: 0;
 }
 
 figcaption {
     text-align: right;
 }
 
-.lower-modal {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 150px;
+    padding: 35px;
+    width: 900px;
+    margin: auto;
+}
+
+.lower-modal {
+    padding: 100px;
 }
 
 .lower-modal h2, .lower-modal p {
@@ -78,4 +124,85 @@ figcaption {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 30px;
+}
+
+.header, .footer, .upper-modal {
+    background-color: #1F2937;
+}
+
+a, p, .footer, .caption, figcaption {
+    font-size: 18px;
+}
+
+a, .upper-modal p, .footer {
+    color: #E5E7EB;
+}
+
+.logo, h1, button, .lower-modal {
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+button {
+    padding:  5px 25px;
+    font-weight: 700;
+}
+
+.upper-button {
+    border: 1px solid #3882F6;
+}
+
+button, .container {
+    background-color: #3882F6;
+}
+
+.images img {
+    width : 200px;
+    border: 3px solid #3882F6;
+}
+
+button, .images img {
+    border-radius: 10px;
+}
+
+.info h2, .quote{
+    color: #1F2937;
+}
+
+.info h2, blockquote {
+    font-size: 36px;
+}
+
+blockquote {
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+figure {
+    width: 845px;
+}
+
+h1, .info h2 {
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+button, figcaption {
+    font-weight: 700;
+}
+
+.lower-button {
+    border: 1px solid #F9FAF8;
 }
