@@ -43,6 +43,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    padding-bottom: 0;
 }
 
 img {
@@ -83,7 +84,7 @@ a:hover {
 .images {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 15px;
     flex-wrap: wrap;
 }
@@ -97,7 +98,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 60px;
+    padding: 80px;
 }
 
 figure, blockquote {
