@@ -85,6 +85,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .caption {
@@ -109,9 +110,8 @@ figcaption {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 150px;
     padding: 35px;
     width: 900px;
     margin: auto;
@@ -119,6 +119,11 @@ figcaption {
 
 .lower-modal {
     padding: 100px;
+    display: flex;
+}
+
+.container .button {
+    flex-shrink: 0;
 }
 
 .lower-modal h2, .lower-modal p {
