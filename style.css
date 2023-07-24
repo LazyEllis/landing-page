@@ -30,12 +30,19 @@
     src: url("./fonts/roboto-v30-latin-900.woff2") format("woff2");
 }
 
+html,
 body {
     padding: 0;
     margin: 0;
     font-family: Roboto;
     color: #1f2937;
-    background-color: #f9faf8;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
 }
 
 .header {
@@ -79,6 +86,7 @@ a:hover {
 .info {
     text-align: center;
     padding: 60px;
+    background-color: #f9faf8;
 }
 
 .images {
@@ -122,6 +130,7 @@ figcaption {
 .lower-modal {
     padding: 100px;
     display: flex;
+    background-color: #f9faf8;
 }
 
 .container .button {
